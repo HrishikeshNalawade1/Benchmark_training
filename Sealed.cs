@@ -3,19 +3,19 @@
 namespace seal
 {
    // sealed
-    class parent
+   sealed class parent
     {
         public virtual void show()
         {
             Console.WriteLine("This is parent");
         }
     }
-    class child:parent
+   /* class child:parent
     {
         public override void  show ()
         {
             Console.WriteLine("This is child");
-        }
+        }*/
     }
     class Program
     {
