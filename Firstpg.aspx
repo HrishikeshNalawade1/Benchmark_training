@@ -12,7 +12,7 @@
           <table>
               <tr>
                   <td>
-                      <asp:Label ID="txtFnme" runat="server" Text="First Name"></asp:Label>
+                      <asp:Label ID="lblFnme" runat="server" Text="First Name"></asp:Label>
 
                   </td>
                   <td colspan="2">
@@ -21,7 +21,7 @@
                   </tr>
                <tr>
                   <td>
-                      <asp:Label ID="txtLnme" runat="server" Text="Last Name"></asp:Label>
+                      <asp:Label ID="lblLnme" runat="server" Text="Last Name"></asp:Label>
                   </td>
                   <td colspan="2">
                       <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
@@ -29,7 +29,7 @@
                   </tr>
                <tr>
                   <td>
-                      <asp:Label ID="txtUnme" runat="server" Text="UserName"></asp:Label>
+                      <asp:Label ID="lblUnme" runat="server" Text="UserName"></asp:Label>
                   </td>
                   <td colspan="2">
                       <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
@@ -37,7 +37,7 @@
                   </tr>
                <tr>
                   <td>
-                      <asp:Label ID="txtPwd" runat="server" Text="Password"></asp:Label>
+                      <asp:Label ID="lblPwd" runat="server" Text="Password"></asp:Label>
                   </td>
                   <td colspan="2">
                       <asp:TextBox ID="TextBox4" runat="server" TextMode="Password"></asp:TextBox>
@@ -53,7 +53,7 @@
                   </tr>
                <tr>
                   <td>
-                      <asp:Label ID="txtAdrs" runat="server" Text="Adress"></asp:Label>
+                      <asp:Label ID="lblAdrs" runat="server" Text="Adress"></asp:Label>
                   </td>
                   <td colspan="2">
                       <asp:TextBox ID="TextBox6" runat="server" TextMode="MultiLine"></asp:TextBox>
@@ -61,7 +61,7 @@
                   </tr>
                <tr>
                   <td>
-                      <asp:Label ID="txtSta" runat="server" Text="State"></asp:Label>
+                      <asp:Label ID="lblSta" runat="server" Text="State"></asp:Label>
                   </td>
                   <td colspan="2">
                       <asp:DropDownList ID="DropDownList1" runat="server">
@@ -75,7 +75,7 @@
              
               <tr>
                   <td>
-                      <asp:Label ID="txtDob" runat="server" Text="Date of Birth"></asp:Label>
+                      <asp:Label ID="lblDob" runat="server" Text="Date of Birth"></asp:Label>
                   </td>
                   <td colspan="2">
                       <asp:TextBox ID="TextBox9" runat="server" TextMode="Date"></asp:TextBox>
@@ -83,7 +83,7 @@
                   </tr>
               <tr>
                   <td>
-                      <asp:Label ID="txtRmk" runat="server" Text="Remark"></asp:Label>
+                      <asp:Label ID="lblRmk" runat="server" Text="Remark"></asp:Label>
                   </td>
                   <td colspan="2">
                       <asp:TextBox ID="TextBox10" runat="server" OnTextChanged="TextBox10_TextChanged"></asp:TextBox>
