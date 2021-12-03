@@ -34,6 +34,6 @@ namespace Api_consumer.Controllers
                 return View();
             }
         }
-        //@Html.DropDownList("res", data)
+        
     }
 }
