@@ -13,14 +13,6 @@ namespace WebApplication3.Controllers
         {
             return "Welcome to Web Api";
         }
-      
-        /*public List<string> get()
-        {
-            List<string> datalist = new List<string>();
-            datalist.Add("Data1");
-            datalist.Add("Data1");
-            return datalist;
-        }*/
-        
+              
     }
 }
