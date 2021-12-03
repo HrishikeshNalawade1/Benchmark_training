@@ -18,18 +18,8 @@ namespace Api_consumer.Controllers
                 var result = client.GetAsync("Demo");
                 result.Wait();
                 var res = result.Result;
+               
                 if (res.IsSuccessStatusCode)
-                {
-                    var data = res.Content.ReadAsAsync(typeof(string));
-                    data.Wait();
-                    string s = data.Result.ToString();
-                    ViewData["response"] = s;
-                }
-                else
-                {
-                    ViewData["response"] = "Error Calling";
-                }
-                /*if (res.IsSuccessStatusCode)
                 {
                     var data = res.Content.ReadAsAsync(typeof (List<string>));
                     {
@@ -50,11 +40,11 @@ namespace Api_consumer.Controllers
                 {
                     ViewData["response"] = "Error Calling";
                 }
-                }*/
+                }
 
                 return View();
             }
         }
-        //@Html.DropDownList("res", data)
+       
     }
 }
