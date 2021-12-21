@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DataBindingComponent implements OnInit {
 
   myapp:string='I am Interpolation';
-  mynumber:number=677;
+  mynumber:number=6788;
   imagePath:string='../assets/hrishi.jpg'
  
  isdisabled=false;
