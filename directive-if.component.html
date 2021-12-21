@@ -7,7 +7,7 @@ display={{display}}<br>
 <div *ngIf='display; else  elseBlock'>Hii am angular</div><br>
 <ng-template #elseBlock>Hii</ng-template><br>
 
-<div *ngIf='5>4 then thenBlock;else elseBlock'></div>
+<div *ngIf='5>4 then thenBlock;else elseBlock' ></div>
 
 <ng-template #thenBlock><div><b>5 is greater</b></div></ng-template>
 <ng-template #elseBlock><div><b>4 is greater</b></div></ng-template>
